@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkstrapi_cloudinary=self.webpackChunkstrapi_cloudinary||[]).push([[1576],{81576:(o,n,e)=>{e.r(n),e.d(n,{default:()=>d});const d={"plugin.description.long":"Agrega un endpoint GraphQL con m\xE9todos de API predeterminados.","plugin.description.short":"Agrega un endpoint GraphQL con m\xE9todos de API predeterminados.","plugin.name":"GraphQL"}}}]);
