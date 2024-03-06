@@ -24,7 +24,7 @@
         "images"
       ]
     },
-    "contenct": {
+    "content": {
       "type": "richtext"
     },
     "slug": {
@@ -32,11 +32,17 @@
       "unique": true,
       "required": true
     },
-    "category": {
+    "categories": {
       "type": "relation",
-      "relation": "manyToOne",
+      "relation": "manyToMany",
       "target": "api::category.category",
       "inversedBy": "posts"
+    },
+    "date": {
+      "type": "date"
+    },
+    "accent": {
+      "type": "boolean"
     }
   }
 }
